@@ -1,0 +1,3 @@
+FROM centos:centos7
+ENTRYPOINT [ "yum", "-y", "install" ]
+CMD ["git"]
